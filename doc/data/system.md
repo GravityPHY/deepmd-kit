@@ -7,7 +7,7 @@ A system should contain system properties, input frame properties, and labeled f
 ID       | Property                | Raw file     | Required/Optional    | Shape                    | Description
 -------- | ----------------------  | ------------ | -------------------- | -----------------------  | -----------
 type     | Atom type indexes       | type.raw     | Required             | Natoms                   | Integers that start with 0
-type_map | Atom type names         | type_map.raw | Optional             | Ntypes                   | Atom names that map to atom type, which is unnecessart to be contained in the periodic table
+type_map | Atom type names         | type_map.raw | Optional             | Ntypes                   | Atom names that map to atom type, which is unnecessary to be contained in the periodic table
 nopbc    | Non-periodic system     | nopbc        | Optional             | 1                        | If True, this system is non-periodic; otherwise it's periodic
 
 The input frame properties contains the following property, the first axis of which is the number of frames:
